@@ -1,0 +1,21 @@
+nav.nav-center ul {
+    text-align: center;
+}
+nav.nav-center ul li {
+    display: inline;
+    float: none;
+}
+nav.nav-center ul li a {
+    display: inline-block;
+}
+
+.icons{
+	height: 30px;
+	width: 30px;
+}
+
+.social{
+	display: inline-block;
+	float: none;
+	display: inline;
+}
