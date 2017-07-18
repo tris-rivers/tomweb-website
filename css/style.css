@@ -1,0 +1,45 @@
+nav{
+	background-color: #f06292;
+}
+
+h1{
+	font-family: 'Oswald', sans-serif;
+	color: white;
+}
+
+h4, .button{
+	font-family: 'Open Sans Condensed', sans-serif;
+	color: white;
+}
+
+.icon{
+	margin-top: 15px;
+}
+
+.page-footer{
+	background-color: #f06292;
+	margin-top: -40px;
+}
+
+#logo{
+	margin-left: 10px;
+}
+
+body.landing{
+    width: auto;
+    height: auto;
+    background: white url("../image/landing.png");
+	margin: 0;
+	padding: 0;
+}
+
+.text, .button{
+	text-align: center;
+	margin-top: 100px;
+}
+
+.page-footer{
+	position:absolute;
+   bottom:0;
+   width:100%;
+}

@@ -1,33 +1,64 @@
 <!DOCTYPE html>
 <html>
 <head>
-	<title>Beatriz Rivera</title>
+	<meta http-equiv="Content-Type" content="text/html; charset=UTF-8"/>
+  <meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1.0"/>
+  <meta http-equiv="X-UA-Compatible" content="ie=edge">
+	
+	<link href="https://fonts.googleapis.com/css?family=Open+Sans+Condensed:300|Oswald" rel="stylesheet">
 
-	<link rel="stylesheet" href="style.css">
-	 <!-- Compiled and minified CSS -->
-    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/materialize/0.99.0/css/materialize.min.css">
+  <!-- Compiled and minified CSS -->
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/materialize/0.99.0/css/materialize.min.css">
+    
+  <link href="https://fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet">
 
-    <!-- Compiled and minified JavaScript -->
-    <script src="https://cdnjs.cloudflare.com/ajax/libs/materialize/0.99.0/js/materialize.min.js"></script>
+  <link rel="stylesheet" href="css/style.css">
 
-	<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css">
+  <title>Beatriz Rivera</title>
 </head>
-<body>
+<body class="landing">
 	<!--NAV BAR-->
 	<nav class="nav-center" role="navigation">
-	    <div class="nav-wrapper container">
-	    	<a href="#!" class="brand-logo left">Logo</a>
-	        <ul id="nav-mobile" class="hide-on-med-and-down">
-		        <li><a href="#">Sass</a></li>
-		        <li><a href="#">Components</a></li>
-		        <li><a href="#">JavaScript</a></li>
-		     </ul>
-		     <ul class="right social hide-on-med-and-down">
-		     	<li><a href="#"><img class="icons" src="image/facebook.png"></a></li>
-		     	<li><a href=""><img class="icons" src="image/twitter.png"></a></li>
-		     </ul>
+	    <div>
+	    	<a href="#!" id="logo" class="brand-logo left">Logo</a>
+	      <ul id="categories" class="brand-logo center hide-on-med-and-down">
+		      <li><a href="#">About</a></li>
+		      <li><a href="#">Portfolio</a></li>
+		      <li><a href="#">Contact</a></li>
+		    </ul>
+		    <ul class="right social hide-on-med-and-down">
+		     	<li><a href="#"><img class="icon" src="image/facebook.png" height="30px"></a></li>
+		    	<li><a href="#"><img class="icon" src="image/twitter.png" height="30px"></a></li>	
+		    </ul>
 	    </div>
 	</nav>
 
+	<!--Content-->
+	<div>
+		<div class="text">
+			<h1>Hi, I'm Bea :)</h1>
+			<h4>Front-End Developer</h4>
+		</div>
+		<div class="button">
+			<a class="waves-effect waves-light btn"><i class="material-icons right">fast_forward</i>get to know me</a>
+		</div>
+	</div>
+
+	<!--Footer
+  <footer class="page-footer">
+    <div class="footer-copyright">
+      <div class="container">
+				© 2017 Copyright Text
+				<a class="grey-text text-lighten-4 right" href="#!">More Links</a>
+      </div>
+    </div>
+  </footer>-->
+            
+
+    <!--Import jQuery before materialize.js-->
+    <script type="text/javascript" src="https://code.jquery.com/jquery-2.1.1.min.js"></script>
+    <script type="text/javascript" src="js/materialize.min.js"></script>
+    <script type="text/javascript" src="javascript/script.js"></script>
+    </script>
 </body>
 </html>
