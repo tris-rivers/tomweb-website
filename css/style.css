@@ -4,16 +4,22 @@ nav{
 
 h1{
 	font-family: 'Oswald', sans-serif;
-	color: white;
 }
 
-h4, .button{
+h4, p, .button{
 	font-family: 'Open Sans Condensed', sans-serif;
+}
+
+.home-text{
 	color: white;
 }
 
 .icon{
 	margin-top: 15px;
+}
+
+.social{
+	margin-right: 30px;
 }
 
 .page-footer{
@@ -22,7 +28,7 @@ h4, .button{
 }
 
 #logo{
-	margin-left: 10px;
+	margin-left: 30px;
 }
 
 body.landing{
@@ -42,4 +48,8 @@ body.landing{
 	position:absolute;
    bottom:0;
    width:100%;
+}
+
+.content-text{
+	color: #263238;
 }
