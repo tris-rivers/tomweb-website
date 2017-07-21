@@ -4,10 +4,15 @@ nav{
 
 h1{
 	font-family: 'Oswald', sans-serif;
+	margin-top: 50px;
 }
 
-h4, p, .button{
+h5, p, .button{
 	font-family: 'Open Sans Condensed', sans-serif;
+}
+
+p{
+	font-size: 20px;
 }
 
 .home-text{
@@ -45,11 +50,39 @@ body.landing{
 }
 
 .page-footer{
-	position:absolute;
+   position:absolute;
    bottom:0;
    width:100%;
 }
 
 .content-text{
 	color: #263238;
+	margin-bottom: 20px;
+	padding-bottom: 30px;
+}
+
+.profile{
+	overflow: auto;
+	float: right;
+	height: 400px;
+	width: auto;
+	margin-left: 50px;
+}
+
+.sub-head{
+	font-family: 'Open Sans Condensed', sans-serif;
+	font-size: 28px;
+}
+
+.open-sans{
+	font-family: 'Open Sans Condensed', sans-serif;
+}
+
+.divider{
+	width: 100%;
+}
+
+.square-pic{
+	height: 100px;
+	width: auto;
 }
