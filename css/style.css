@@ -57,8 +57,8 @@ body.landing{
 
 .content-text{
 	color: #263238;
-	margin-bottom: 20px;
-	padding-bottom: 30px;
+	margin-bottom: 15px;
+	padding-bottom: 25px;
 }
 
 .profile{
@@ -85,4 +85,18 @@ body.landing{
 .square-pic{
 	height: 100px;
 	width: auto;
+}
+
+h4{
+	font-family: 'Oswald', sans-serif;
+	color: #263238;
+}
+
+.heart-brain{
+	height: 300px;
+	width: auto;	
+}
+
+.txt-img-txt{
+	padding: 100px 0px 100px 0px;
 }
