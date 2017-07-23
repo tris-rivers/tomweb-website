@@ -97,6 +97,33 @@ h4{
 	width: auto;	
 }
 
-.txt-img-txt{
-	padding: 100px 0px 100px 0px;
+.spacer{
+	padding: 150px 0px 150px 0px;
+}
+
+.etch{
+	background-color:#f06292; 
+	margin-top: -300px;
+}
+
+.footer{
+	background-color: #f06292;
+	padding: 20px 0px 20px 0px;
+}
+
+.gray-text{
+	color: #b0bec5;
+}
+
+.links{
+	display: inline-block;
+	margin-left: 200px;
+}
+
+.link{
+	margin: 0px 15px;
+}
+
+.link:hover{
+	color: black;
 }
